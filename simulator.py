@@ -17,7 +17,7 @@ def garbage_fill():
         num=str(i)
         table="bin"+num
         globals()["bin_"+str(i)]=Location(i)
-        q = "CREATE TABLE {} (Time varchar(255) Primary key, Capacity int)".format(table)  # Corrected query
+        q = "CREATE TABLE {} (Time varchar(255) Primary key, Capacity int)".format(table)  
         #curse.execute(q)
     
         while True:
